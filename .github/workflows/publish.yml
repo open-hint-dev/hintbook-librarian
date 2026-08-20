@@ -23,9 +23,6 @@ jobs:
         run: test "${REF_NAME#v}" = "$(node -p "require('./package.json').version")"
       - run: npm test
       - run: make publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
       - env:
           GH_TOKEN: ${{ github.token }}
         run: gh release create "$GITHUB_REF_NAME" --verify-tag --generate-notes
