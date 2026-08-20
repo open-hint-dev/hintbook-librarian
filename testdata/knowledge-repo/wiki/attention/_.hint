@@ -1,0 +1,7 @@
+# concept Attention {#attention}
+
+Attention relates positions in a sequence. Evidence: `raw/paper.md`.
+
+# relates wiki/transformers
+
+Transformers are the containing architecture.

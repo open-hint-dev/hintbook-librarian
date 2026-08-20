@@ -1,0 +1,3 @@
+# concept Transformers {#transformers}
+
+Transformers compose attention with feed-forward layers. Evidence: `raw/paper.md`.

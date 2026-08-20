@@ -1,0 +1,12 @@
+{
+  "id": "hintbook-librarian",
+  "name": "HINT Librarian",
+  "description": "A vocabulary and operating frame for persistent knowledge repositories",
+  "synonyms": [
+    ["wiki", "knowledgebase", "knowledge-base", "kb"],
+    ["evidence", "citation", "provenance", "source"],
+    ["organization", "organisation", "org"],
+    ["llm", "language-model", "language-models"],
+    ["outdated", "retracted", "replaced", "superseded"]
+  ]
+}
