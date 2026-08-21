@@ -2,6 +2,8 @@
 
 The official HINT vocabulary for persistent, git-backed knowledge repositories. It turns `.hint` files into an interlinked team wiki that agents can ingest, query, and structurally lint without a database, embeddings, or network service.
 
+Measured performance and retrieval results live in the core [benchmark report](https://github.com/open-hint-dev/hint/blob/main/docs/09-benchmarks.md).
+
 ## Install
 
 ```bash

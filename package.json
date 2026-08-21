@@ -1,6 +1,6 @@
 {
   "name": "@openhint/hintbook-librarian",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "The official HINT vocabulary for persistent git-backed knowledge wikis.",
   "keywords": ["openhint", "hintbook", "knowledge-base", "wiki", "ai-agents"],
