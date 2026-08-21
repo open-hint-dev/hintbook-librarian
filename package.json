@@ -1,19 +1,49 @@
 {
-  "name": "@openhint/hintbook-librarian",
-  "version": "1.1.0",
-  "type": "module",
-  "description": "The official HINT vocabulary for persistent git-backed knowledge wikis.",
-  "keywords": ["openhint", "hintbook", "knowledge-base", "wiki", "ai-agents"],
-  "author": "Andrei Neprel <andrei@neprel.ai> (https://neprel.ai/)",
-  "license": "MIT",
-  "repository": {"type": "git", "url": "git+https://github.com/open-hint-dev/hintbook-librarian.git"},
-  "homepage": "https://github.com/open-hint-dev/hintbook-librarian#readme",
-  "bugs": {"url": "https://github.com/open-hint-dev/hintbook-librarian/issues"},
-  "engines": {"node": ">=24"},
-  "publishConfig": {"access": "public"},
-  "main": "./index.js",
-  "exports": {"./package.json": "./package.json", ".": {"import": "./index.js"}},
-  "files": ["LICENSE", "README.md", "docs", "index.js", "keywords", "testdata"],
-  "scripts": {"test": "node scripts/check-book.mjs"},
-  "dependencies": {}
+    "name": "@openhint/hintbook-librarian",
+    "version": "1.1.1",
+    "type": "module",
+    "description": "The official HINT vocabulary for persistent git-backed knowledge wikis.",
+    "keywords": [
+        "openhint",
+        "hintbook",
+        "knowledge-base",
+        "wiki",
+        "ai-agents"
+    ],
+    "author": "Andrei Neprel <andrei@neprel.ai> (https://neprel.ai/)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/open-hint-dev/hintbook-librarian.git"
+    },
+    "homepage": "https://github.com/open-hint-dev/hintbook-librarian#readme",
+    "bugs": {
+        "url": "https://github.com/open-hint-dev/hintbook-librarian/issues"
+    },
+    "engines": {
+        "node": ">=24"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "./index.js",
+    "exports": {
+        "./package.json": "./package.json",
+        ".": {
+            "import": "./index.js"
+        }
+    },
+    "files": [
+        "LICENSE",
+        "CHANGELOG.md",
+        "README.md",
+        "docs",
+        "index.js",
+        "keywords",
+        "testdata"
+    ],
+    "scripts": {
+        "test": "node scripts/check-book.mjs"
+    },
+    "dependencies": {}
 }
